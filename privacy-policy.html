@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Tarot Arcana</title>
+  <style>
+    :root {
+      --bg:       #0d0b1a;
+      --card:     #1a1330;
+      --gold:     #c9a84c;
+      --purple:   #7b5ea7;
+      --text:     #e8e0f0;
+      --muted:    #8a7a9a;
+      --radius:   12px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      padding: 40px 20px 80px;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 48px;
+      padding-bottom: 32px;
+      border-bottom: 0.5px solid var(--purple);
+    }
+
+    .sigil {
+      font-size: 32px;
+      margin-bottom: 12px;
+      opacity: 0.8;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 300;
+      color: var(--gold);
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      font-size: 13px;
+      letter-spacing: 1px;
+    }
+
+    .updated {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    section {
+      background: var(--card);
+      border: 0.5px solid var(--purple);
+      border-radius: var(--radius);
+      padding: 28px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 16px;
+      padding-bottom: 10px;
+      border-bottom: 0.5px solid rgba(123, 94, 167, 0.4);
+    }
+
+    p { margin-bottom: 12px; color: var(--text); }
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      list-style: none;
+      margin: 8px 0 12px;
+    }
+
+    ul li {
+      padding: 6px 0 6px 20px;
+      position: relative;
+      color: var(--text);
+    }
+
+    ul li::before {
+      content: '✦';
+      position: absolute;
+      left: 0;
+      color: var(--gold);
+      font-size: 10px;
+      top: 9px;
+    }
+
+    a { color: var(--gold); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .highlight {
+      background: rgba(201, 168, 76, 0.08);
+      border: 0.5px solid rgba(201, 168, 76, 0.3);
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin: 12px 0;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 12px;
+      letter-spacing: 1.5px;
+      margin-top: 48px;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <div class="sigil">✦</div>
+      <h1>Privacy Policy</h1>
+      <div class="subtitle">Tarot Arcana</div>
+      <div class="updated">Last updated: April 2026</div>
+    </header>
+
+    <section>
+      <h2>Overview</h2>
+      <p>Tarot Arcana is built with your privacy as a priority. We collect as little data as possible, store most of it locally on your device, and are transparent about what leaves your device and why.</p>
+      <div class="highlight">
+        <p>Your journal entries, personal readings, and birth date are stored <strong>only on your device</strong> using Apple's secure storage system. We do not have access to this information.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Information We Collect</h2>
+
+      <p><strong>Stored only on your device:</strong></p>
+      <ul>
+        <li>Your name and birth date (used to calculate your sun sign)</li>
+        <li>Journal entries and reading history</li>
+        <li>App settings and preferences (card back selection, notification times, etc.)</li>
+        <li>Token balance and usage</li>
+      </ul>
+
+      <p><strong>Sent to our servers when you request a reading:</strong></p>
+      <ul>
+        <li>Your selected tarot spread and drawn cards</li>
+        <li>Your mood selection and question (if provided)</li>
+        <li>Your sun sign (if you've entered a birth date)</li>
+      </ul>
+
+      <p>Reading requests are processed by our AI service and the response is returned to your device. We do not permanently store your reading content on our servers.</p>
+    </section>
+
+    <section>
+      <h2>AI-Powered Readings</h2>
+      <p>Tarot Arcana uses artificial intelligence to generate personalized card readings. When you initiate a reading, the relevant context (cards drawn, your question, mood, and sun sign) is sent to our API service hosted on Railway for processing.</p>
+      <p>Our readings are powered by Claude, Anthropic's AI. Anthropic's usage policies apply to content processed through their API. You can review Anthropic's privacy policy at <a href="https://www.anthropic.com/privacy" target="_blank">anthropic.com/privacy</a>.</p>
+      <p>Tarot Arcana readings are for entertainment and reflective purposes only and should not be used as a substitute for professional advice.</p>
+    </section>
+
+    <section>
+      <h2>Purchases & Subscriptions</h2>
+      <p>Tarot Arcana offers a Pro subscription and token purchases processed through Apple's App Store. All payment information is handled directly by Apple — we never see or store your payment details.</p>
+      <p>Subscription and purchase management is handled by RevenueCat. RevenueCat may collect anonymous purchase analytics. You can review RevenueCat's privacy policy at <a href="https://www.revenuecat.com/privacy" target="_blank">revenuecat.com/privacy</a>.</p>
+    </section>
+
+    <section>
+      <h2>Notifications</h2>
+      <p>If you enable notifications, Tarot Arcana may send you:</p>
+      <ul>
+        <li>Daily horoscope reminders at your chosen time</li>
+        <li>New moon and full moon alerts</li>
+        <li>Birthday reading reminders</li>
+        <li>Solstice and equinox reminders</li>
+      </ul>
+      <p>Notification scheduling happens entirely on your device. We do not use a push notification server — no data is sent to our servers to trigger notifications. You can disable notifications at any time in your device Settings.</p>
+    </section>
+
+    <section>
+      <h2>Data Sharing</h2>
+      <p>We do not sell, rent, or trade your personal information. We do not share your data with third parties for advertising purposes. The only third parties involved are:</p>
+      <ul>
+        <li><strong>Anthropic</strong> — AI processing for readings</li>
+        <li><strong>RevenueCat</strong> — purchase management</li>
+        <li><strong>Apple</strong> — App Store payments and device notifications</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Data Retention & Deletion</h2>
+      <p>Since your personal data lives on your device, you are in full control:</p>
+      <ul>
+        <li>Clear your journal entries at any time via Settings → Clear All Entries</li>
+        <li>Delete the app to remove all locally stored data</li>
+        <li>Contact us to request deletion of any server-side data associated with your account</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Children's Privacy</h2>
+      <p>Tarot Arcana is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe we have inadvertently collected such information, please contact us immediately.</p>
+    </section>
+
+    <section>
+      <h2>Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. We will notify you of any significant changes by updating the date at the top of this page. Your continued use of the app after changes constitutes your acceptance of the updated policy.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Questions about this Privacy Policy or your data? We're happy to help.</p>
+      <p>You can reach us at: <a href="mailto:privacy@tarotarcana.app">privacy@tarotarcana.app</a></p>
+    </section>
+
+    <footer>✦ Illuminate your arc ✦</footer>
+
+  </div>
+</body>
+</html>
