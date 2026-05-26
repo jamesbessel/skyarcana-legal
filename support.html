@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support — Tarot Arcana</title>
+  <style>
+    :root {
+      --bg:       #0d0b1a;
+      --card:     #1a1330;
+      --gold:     #c9a84c;
+      --purple:   #7b5ea7;
+      --text:     #e8e0f0;
+      --muted:    #8a7a9a;
+      --radius:   12px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      padding: 40px 20px 80px;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 48px;
+      padding-bottom: 32px;
+      border-bottom: 0.5px solid var(--purple);
+    }
+
+    .sigil {
+      font-size: 32px;
+      margin-bottom: 12px;
+      opacity: 0.8;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 300;
+      color: var(--gold);
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      font-size: 13px;
+      letter-spacing: 1px;
+    }
+
+    section {
+      background: var(--card);
+      border: 0.5px solid var(--purple);
+      border-radius: var(--radius);
+      padding: 28px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 16px;
+      padding-bottom: 10px;
+      border-bottom: 0.5px solid rgba(123, 94, 167, 0.4);
+    }
+
+    p { margin-bottom: 12px; color: var(--text); }
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      list-style: none;
+      margin: 8px 0 12px;
+    }
+
+    ul li {
+      padding: 6px 0 6px 20px;
+      position: relative;
+      color: var(--text);
+    }
+
+    ul li::before {
+      content: '✦';
+      position: absolute;
+      left: 0;
+      color: var(--gold);
+      font-size: 10px;
+      top: 9px;
+    }
+
+    a { color: var(--gold); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .highlight {
+      background: rgba(201, 168, 76, 0.08);
+      border: 0.5px solid rgba(201, 168, 76, 0.3);
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin: 12px 0;
+    }
+
+    .faq-item {
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      border-bottom: 0.5px solid rgba(123, 94, 167, 0.2);
+    }
+
+    .faq-item:last-child {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+
+    .faq-q {
+      color: var(--gold);
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+
+    .faq-a {
+      color: var(--text);
+      margin-bottom: 0;
+    }
+
+    .contact-email {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 10px 20px;
+      background: rgba(201, 168, 76, 0.1);
+      border: 0.5px solid rgba(201, 168, 76, 0.4);
+      border-radius: 8px;
+      color: var(--gold);
+      font-size: 15px;
+      letter-spacing: 0.5px;
+    }
+
+    .links-row {
+      text-align: center;
+      margin-top: 32px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .links-row a {
+      margin: 0 12px;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 12px;
+      letter-spacing: 1.5px;
+      margin-top: 48px;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <div class="sigil">✦</div>
+      <h1>Support</h1>
+      <div class="subtitle">Tarot Arcana</div>
+    </header>
+
+    <section>
+      <h2>About the App</h2>
+      <p>Tarot Arcana is an AI-powered tarot reading app for iOS. Draw cards, explore spreads, track the moon, and journal your reflections — all in one place.</p>
+      <div class="highlight">
+        <p>Readings are for entertainment and personal reflection only. They are not predictions of future events or substitutes for professional advice.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+        <p class="faq-q">How do tokens work?</p>
+        <p class="faq-a">Tokens are spent each time you request an AI reading. Single Card readings cost 1 token, Three Card and The Mirror spreads cost 2 tokens, and the Celtic Cross costs 3 tokens. New users receive tokens to get started. Additional tokens can be purchased in the Emporium.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">What is Tarot Arcana Pro?</p>
+        <p class="faq-a">Pro is a subscription that removes token requirements so you can do unlimited readings. It also unlocks additional features. Subscriptions are managed through Apple and can be cancelled anytime in your Apple ID settings.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">How do I cancel my subscription?</p>
+        <p class="faq-a">Go to your iPhone Settings → Apple ID → Subscriptions → Tarot Arcana. Apple manages all billing — we cannot cancel or modify subscriptions on your behalf.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">Can I get a refund?</p>
+        <p class="faq-a">All purchases are processed by Apple. To request a refund, visit <a href="https://reportaproblem.apple.com" target="_blank">reportaproblem.apple.com</a> and follow Apple's refund process.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">Where is my data stored?</p>
+        <p class="faq-a">Your journal entries, reading history, birth date, and settings are stored only on your device. We do not store your personal data on our servers. Deleting the app removes all your data.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">How do I set up my birth chart?</p>
+        <p class="faq-a">Go to your Profile and enter your birth date. This unlocks your sun sign and personalizes your horoscope, moon transits, and reading context.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">What spreads are available?</p>
+        <p class="faq-a">Tarot Arcana includes Single Card, Three Card (Past / Present / Future), The Mirror (a 4-card self-reflection spread), and the Celtic Cross (a 10-card deep-dive). More spreads may be added in future updates.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">The app isn't working as expected — what should I do?</p>
+        <p class="faq-a">Try closing and reopening the app. If the issue persists, delete and reinstall — your local data will be reset, but any Pro subscription or App Store purchases will be restorable. If you're still stuck, contact us below.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contact Us</h2>
+      <p>Can't find an answer above? We're happy to help.</p>
+      <a class="contact-email" href="mailto:support@tarotarcana.app">support@tarotarcana.app</a>
+    </section>
+
+    <div class="links-row">
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms-of-service.html">Terms of Service</a>
+    </div>
+
+    <footer>✦ Illuminate your arc ✦</footer>
+
+  </div>
+</body>
+</html>
